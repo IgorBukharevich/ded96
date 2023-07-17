@@ -1,0 +1,17 @@
+{% extends 'base.html'%}
+{% block title %}
+Загрузка JSON-файла
+{% endblock %}
+
+{% block content %}
+<div class="conteiner">
+    <div class="center" align="center">
+        <h1> Загрузка файла JSON </h1>
+        <form method="POST" enctype="multipart/form-data">
+            <input class="ok" type="file" accept=".json" name="file">
+            <button class="op">Загрузить</button>
+        </form>
+    </div>
+    </form>
+</div>
+{% endblock %}
